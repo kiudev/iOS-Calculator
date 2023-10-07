@@ -1,0 +1,112 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'SF Pro Display', sans-serif;
+   background-color: #E6E6E6;
+}
+
+nav ul {
+   display: flex;
+   justify-content: space-between;
+   color: #fff;
+   list-style: none;
+   margin: 0 20px;
+   align-items: center;
+}
+
+.icons-system {
+   display: flex;
+}
+
+main {
+   max-width: 380px;
+   min-height: 800px;
+   margin: auto;
+   padding: 20px;
+   border: 2px solid #fff;
+   background-color: #000;
+   border-radius: 50px;
+   border: 2px solid #617288;
+   margin-top: 60px;
+   filter: drop-shadow(0 2px 10px #000);
+}
+
+section {
+   margin-top: 180px;
+}
+
+p {
+   display: flex;
+   align-items: center;
+   padding: 5px;
+   justify-content: center;
+}
+
+button {
+   padding: 15px;
+   font-size: 35px;
+   border-radius: 50px;
+   width: 70px;
+   height: 70px;
+   text-align: center;
+   background-color: #313131;
+   color: #efefef;
+   border: none;
+   margin-right: 10px;
+}
+
+.ac-button {
+   background-color: #9f9f9f;
+   color: #000;
+   text-transform: uppercase;
+   text-indent: -1px;
+   font-size: 30px;
+}
+
+.plus-minus-button {
+   background-color: #9f9f9f;
+   color: #000;
+}
+
+.percentage-button {
+   background-color: #9f9f9f;
+   color: #000;
+   font-size: 30px;
+}
+
+.divide-button,
+.multiply-button,
+.minus-button,
+.plus-button,
+.equal-button {
+   background-color: #f69a06;
+   color: #f5f5f5;
+}
+
+.zero-button {
+   width: 150px;
+   text-align: left;
+   text-indent: 10px;
+}
+
+.result {
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 25px;
+   color: #fff;
+   font-size: 80px;
+}
+
+.line {
+   margin: auto;
+   margin-top: 35px;
+   background-color: #fff;
+   width: 150px;
+   height: 5px;
+}

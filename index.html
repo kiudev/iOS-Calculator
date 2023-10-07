@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>iOS Calculator</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <main>
+         <header>
+            <nav>
+               <ul>
+                  <li class="time">9:41</li>
+                  <div class="icons-system">
+                     <li>
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="icon icon-tabler icon-tabler-antenna-bars-5"
+                           width="24"
+                           height="24"
+                           viewBox="0 0 24 24"
+                           stroke-width="2"
+                           stroke="#fff"
+                           fill="#fff"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        >
+                           <path
+                              stroke="none"
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                           ></path>
+                           <path d="M6 18l0 -3"></path>
+                           <path d="M10 18l0 -6"></path>
+                           <path d="M14 18l0 -9"></path>
+                           <path d="M18 18l0 -12"></path>
+                        </svg>
+                     </li>
+                     <li>
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="icon icon-tabler icon-tabler-wifi"
+                           width="24"
+                           height="24"
+                           viewBox="0 0 24 24"
+                           stroke-width="2"
+                           stroke="#fff"
+                           fill="#fff"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        >
+                           <path
+                              stroke="none"
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                           ></path>
+                           <path d="M12 18l.01 0"></path>
+                           <path d="M9.172 15.172a4 4 0 0 1 5.656 0"></path>
+                           <path d="M6.343 12.343a8 8 0 0 1 11.314 0"></path>
+                           <path
+                              d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0"
+                           ></path>
+                        </svg>
+                     </li>
+                     <li>
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           class="icon icon-tabler icon-tabler-battery-filled"
+                           width="24"
+                           height="24"
+                           viewBox="0 0 24 24"
+                           stroke-width="2"
+                           stroke="#fff"
+                           fill="#fff"
+                           stroke-linecap="round"
+                           stroke-linejoin="round"
+                        >
+                           <path
+                              stroke="none"
+                              d="M0 0h24v24H0z"
+                              fill="none"
+                           ></path>
+                           <path
+                              d="M17 6a3 3 0 0 1 2.995 2.824l.005 .176v.086l.052 .019a1.5 1.5 0 0 1 .941 1.25l.007 .145v3a1.5 1.5 0 0 1 -.948 1.395l-.052 .018v.087a3 3 0 0 1 -2.824 2.995l-.176 .005h-11a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-6a3 3 0 0 1 2.824 -2.995l.176 -.005h11z"
+                              stroke-width="0"
+                              fill="#fff"
+                           ></path>
+                        </svg>
+                     </li>
+                  </div>
+               </ul>
+            </nav>
+         </header>
+
+         <section>
+            <p class="result">0</p>
+
+            <p>
+               <button class="ac-button">ac</button>
+
+               <button class="plus-minus-button">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="icon icon-tabler icon-tabler-plus-minus"
+                     width="27"
+                     height="27"
+                     viewBox="0 0 24 24"
+                     stroke-width="2"
+                     stroke="currentColor"
+                     fill="none"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                  >
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <path d="M4 7h6"></path>
+                     <path d="M7 4v6"></path>
+                     <path d="M20 18h-6"></path>
+                     <path d="M5 19l14 -14"></path>
+                  </svg>
+               </button>
+
+               <button class="percentage-button">%</button>
+
+               <button class="divide-button">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="icon icon-tabler icon-tabler-divide"
+                     width="32"
+                     height="32"
+                     viewBox="0 0 24 18"
+                     stroke-width="2"
+                     stroke="currentColor"
+                     fill="none"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                  >
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <circle cx="12" cy="6" r="1" fill="currentColor"></circle>
+                     <circle cx="12" cy="18" r="1" fill="currentColor"></circle>
+                     <path d="M5 12l14 0"></path>
+                  </svg>
+               </button>
+            </p>
+
+            <p>
+               <button>7</button>
+
+               <button>8</button>
+
+               <button>9</button>
+
+               <button class="multiply-button">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="icon icon-tabler icon-tabler-x"
+                     width="30"
+                     height="30"
+                     viewBox="0 0 24 20"
+                     stroke-width="3"
+                     stroke="currentColor"
+                     fill="none"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                  >
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <path d="M18 6l-12 12"></path>
+                     <path d="M6 6l12 12"></path>
+                  </svg>
+               </button>
+            </p>
+
+            <p>
+               <button>4</button>
+
+               <button>5</button>
+
+               <button>6</button>
+
+               <button class="minus-button">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     class="icon icon-tabler icon-tabler-minus"
+                     width="24"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     stroke-width="4"
+                     stroke="currentColor"
+                     fill="none"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                  >
+                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                     <path d="M5 12l14 0"></path>
+                  </svg>
+               </button>
+            </p>
+
+            <p>
+               <button>1</button>
+
+               <button>2</button>
+
+               <button>3</button>
+
+               <button class="plus-button">+</button>
+            </p>
+
+            <p>
+               <button class="zero-button">0</button>
+
+               <button>.</button>
+
+               <button class="equal-button">=</button>
+            </p>
+         </section>
+         
+         <footer class="line"></footer>
+      </main>
+   </body>
+</html>
