@@ -110,3 +110,34 @@ button {
    width: 150px;
    height: 5px;
 }
+
+button:active {
+   background-color: #E6E6E6;
+   color: #313131;
+}
+
+.result-display {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.size-button {
+   display: block;
+   width: 10px;
+   margin-right: 10px;
+}
+
+.plus-size-button,
+.minus-size-button {
+   font-size: 30px;
+   width: 10px;
+   margin-bottom: 5px;
+}
+
+.plus-size-button {
+   text-indent: -8px;
+}
+
+.minus-size-button {
+   text-indent: -5px;
+}
