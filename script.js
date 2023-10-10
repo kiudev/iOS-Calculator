@@ -30,9 +30,12 @@ for (let i = 0; i < numberButtons.length; i++) {
 }
 
 const arrayButtons = document.getElementsByTagName('button');
-console.log(arrayButtons)
+const clickSound = document.getElementById('click-sound');
 
 for (let i = 0; i < arrayButtons.length; i++) {
+   arrayButtons[i].addEventListener('click', () => {
+      clickSound.play()
+   })
    const operatorButton = arrayButtons[i];
    const zeroButton = arrayButtons[i];
 
